@@ -6,7 +6,7 @@ public class Dado {
     public Dado(int numCaras){
         caras = numCaras;
     }
-    public double lanzar(){
-        return Math.random()*caras+1;
+    public int lanzar(){
+        return (int) Math.random()*caras+1;
     }
 }
